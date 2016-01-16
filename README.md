@@ -10,5 +10,5 @@ http://www.happstack.com/page/view-page-slug/2/download
 
 cabal install happstack-lite
 
-ghc -o web Web.hs
+ghc -outputdir bin Web
 
