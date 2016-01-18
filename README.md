@@ -14,3 +14,6 @@ ghc -outputdir bin Web
 
 https://awelonblue.wordpress.com/2014/12/19/vcache-an-acid-state-killer/
 
+http://jmeter.apache.org/
+
+http://www.stephendiehl.com/posts/haskell_web.html
