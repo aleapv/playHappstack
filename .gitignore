@@ -2,3 +2,5 @@ bin/
 Web.hi
 Web.o
 Web.exe
+AcidState.exe
+db/

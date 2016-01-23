@@ -121,6 +121,7 @@ fileServing =
 --In most cases, you don't want a user to upload a file just to have it deleted.
 --Normally the upload handler would use moveFile or copyFile to move (or copy) the temporary file to a permanent location.
 --TODO save uploaded file to DB
+--TODO encode file with dsa security and decode when db reading
 upload :: ServerPart Response
 upload =
        msum [ uploadForm
