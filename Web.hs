@@ -11,6 +11,8 @@ import Text.Blaze.Html5.Attributes (action, enctype, href, name, size, type_, va
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as A
 
+// TODO maximum analyze
+
 main :: IO ()
 main = serve Nothing myApp
 

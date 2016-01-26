@@ -30,5 +30,5 @@ queryClients c = query_ c "SELECT firstname, lastname, location FROM clients"
 main :: IO [Client]
 main = do
   uri <- B.getLine
-  conn <- connectPostgreSQL uri -- TODO see uri format in function doc
+  conn <- connectPostgreSQL uri -- TODO see uri format in function doc postgres://postgres:123456@localhost/hsdb
   queryClients conn

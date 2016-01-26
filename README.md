@@ -27,3 +27,7 @@ http://acid-state.seize.it/#what-about-happstack-state
 cabal install postgres-simple
 
 https://mail.haskell.org/pipermail/cabal-devel/2012-September/009079.html
+
+http://eax.me/haskell-postgresql-simple/
+
+TODO maximum analyze
