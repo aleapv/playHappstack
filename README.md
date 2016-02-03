@@ -24,10 +24,14 @@ https://github.com/acid-state/acid-state - TODO
 
 http://acid-state.seize.it/#what-about-happstack-state
 
-cabal install postgres-simple
+cabal install postgresql-simple
 
 https://mail.haskell.org/pipermail/cabal-devel/2012-September/009079.html
 
 http://eax.me/haskell-postgresql-simple/
 
 TODO maximum analyze
+
+http://www.happstack.com/docs/crashcourse/index.html
+
+http://www.slideshare.net/kizzx2/template-haskell-tutorial
