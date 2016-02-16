@@ -4,3 +4,6 @@ Web.o
 Web.exe
 AcidState.exe
 db/
+.cabal-sandbox/
+cabal.sandbox.config
+dist/

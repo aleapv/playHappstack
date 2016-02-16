@@ -35,3 +35,5 @@ TODO maximum analyze
 http://www.happstack.com/docs/crashcourse/index.html
 
 http://www.slideshare.net/kizzx2/template-haskell-tutorial
+
+https://wiki.haskell.org/How_to_write_a_Haskell_program
