@@ -20,6 +20,12 @@ import Data.Acid            ( AcidState, Query, Update
 import Data.Acid.Advanced   ( query', update' )
 import Data.Acid.Local      ( createCheckpointAndClose )
 import Data.SafeCopy        ( base, deriveSafeCopy )
+
+data CounterState = CounterState { count :: Integer }
+    deriving (Eq, Ord, Read, Show, Data, Typeable)
+
+-- in Happstack Template Haskell (like macros) used to derive instances of classes like SafeCopy and IsAcidic (similar to typeclasses)
+$(deriveSafeCopy 0 'base ''CounterState)
  
 main :: IO ()
 main = print "Hello"
